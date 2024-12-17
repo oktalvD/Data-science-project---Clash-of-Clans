@@ -66,3 +66,4 @@ This project highlights the ability to build end-to-end data pipelines, integrat
 Files added to repository:
 - fetchCWLDataToFirebase.js - The code for data extraction and data storage to the Firebase
 - firebaseToExcelExporter.js - The code for data aggregation and data export to Excel
+- PowerBI_report_Clash_of_clans.pdf - PowerBI report with created visuals
