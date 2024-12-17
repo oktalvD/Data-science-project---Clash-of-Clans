@@ -1,10 +1,10 @@
-Clash of Clans Data Pipeline
+**Clash of Clans Data Pipeline**
 
-Overview
+**Overview**
 
 This project demonstrates a complete data pipeline designed to automate the extraction, storage, processing, and visualization of Clash of Clans, Clan War League (CWL) performance data. The pipeline showcases the integration of multiple technologies to provide insights into player and clan performance through detailed Power BI dashboards and additional processing using PostgreSQL.
 
-Features
+**Features**
 
 - Clash of Clans API Integration:
 Fetches detailed data for Clan War Leagues, including war and player performance statistics.
@@ -24,7 +24,7 @@ Aggregated data is exported to Excel for easy sharing and analysis.
 - Power BI Visualizations:
 Processed data is used to create detailed Power BI dashboards. These visuals allow for comparison of player performance, tracking individual progress, and presenting overall clan statistics with clarity.
 
-Technologies Used
+**Technologies Used**
 
 - JavaScript: Core programming language for the pipeline.
 - Firebase Admin SDK: Used to interact with Google Firebase for data storage and retrieval.
@@ -34,7 +34,7 @@ Technologies Used
 - ExcelJS/xlsx: To export summarized data into Excel files.
 - Power BI: For creating dynamic and detailed performance dashboards.
 
-Workflow
+**Workflow**
 
 1. Data Extraction
 - Fetches Clan War League data for a specific clan using the Clash of Clans API.
@@ -53,7 +53,7 @@ Workflow
 5. Visualization
 - The prepared data is visualized in Power BI dashboards, featuring comprehensive analysis and insights into player and clan performance.
 
-Purpose
+**Purpose**
 
 This project highlights the ability to build end-to-end data pipelines, integrating multiple technologies for real-world applications. It demonstrates skills in:
 
@@ -62,3 +62,7 @@ This project highlights the ability to build end-to-end data pipelines, integrat
 - Database management and querying with PostgreSQL.
 - Data processing and aggregation.
 - Building advanced Power BI dashboards for real-time performance tracking and comparison.
+
+Files added to repository:
+- fetchCWLDataToFirebase.js - The code for data extraction and data storage to the Firebase
+- firebaseToExcelExporter.js - The code for data aggregation and data export to Excel
