@@ -2,7 +2,7 @@
 const admin = require('firebase-admin');
 const axios = require('axios');
 
-// Import your Firebase service account key
+// Import Firebase service account key
 const serviceAccount = require('./firebaseKey.json'); 
 
 // Initialize Firebase Admin SDK
@@ -48,7 +48,7 @@ const getPlayerPerformanceByWarTag = async (warTag) => {
   }
 };
 
-// Define your clan tag
+// Define clan tag
 const clanTag = '#2PG9CGRP2';
 // Fetch and save current CWL data
 getClanWarLeagueData(clanTag)
